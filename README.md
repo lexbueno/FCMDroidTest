@@ -1,4 +1,4 @@
-Android FCM Remote Notifications 
+Just test Android FCM
 ================================
 
 This sample app accompanies the article
@@ -16,7 +16,7 @@ observed by watching the output window while the app runs from
 the IDE.
 
 
-Author
+Original Author
 ------
 
 Copyright 2016 Xamarin
