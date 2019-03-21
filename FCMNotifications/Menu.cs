@@ -19,6 +19,7 @@ namespace FCMNotifications
         internal static readonly string CHANNEL_ID = "my_notification_channel";
         internal static readonly int NOTIFICATION_ID = 100;
         TextView msgText;
+
         
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -33,7 +34,7 @@ namespace FCMNotifications
                 foreach (var key in Intent.Extras.KeySet())
                 {
                     var value = Intent.Extras.GetString(key);
-                    Log.Debug(TAG, "Key: {0} Value: {1}", key, value);
+                    Log.Debug(TAG, "Key: {0} Valores: {1}", key, value);
                 }
             }
 
